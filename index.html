@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porygon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <h1>The Porygon Emporium</h1>
+       
+    </div>
+<script>
+    
+</script>
+
+    <div class="mainPetBox">
+        <div class="petBoxSingular" id="petBoxSingular">
+            <input type="text" class="petName" placeholder="PORYGON"></input>
+            <h4 class="petSubClass"><em>Porygon</em></h4>
+            <img id="petIcon" class="petIcon">
+            <div class="petObjects">
+                <label for="objectLvlPlay" class="objectNames" id="objectPlay">Fun</label>
+                    <progress class="objectLevels" id="objectLvlPlay" max="100" value="50"> 50% </progress>
+                    <!-- <h4 class="objectLevels" id="objectLvlPlay">#</h4> -->
+                <label for="objectLvlHunger" class="objectNames" id="objectHunger">Hunger</label>
+                    <progress class="objectLevels" id="objectLvlHunger" max="100" value="60"> 60% </progress>
+                    <!-- <h4 class="objectLevels" id="objectLvlHunger">#</h4> -->
+                <label for="objectLvlThirst" class="objectNames" id="objectThirst">Thirst</label>
+                    <progress class="objectLevels" id="objectLvlThirst" max="100" value="10"> 10% </progress>
+                    <!-- <h4 class="objectLevels" id="objectLvlThirst">#</h4> -->
+                <label for="objectLvlWalks" class="objectNames" id="objectWalks">Walks</label>
+                    <progress class="objectLevels" id="objectLvlWalks" max="100" value="90"> 90% </progress>
+                    <!-- <h4 class="objectLevels" id="objectLvlWalks">#</h4> -->
+            </div>
+            <button type="submit" class="objectButtons" id="buttonPlayWith">Play With</button>
+            <button type="submit" class="objectButtons" id="buttonFeed">Give Food</button>
+            <button type="submit" class="objectButtons" id="buttonWater">Give Water</button>
+            <button type="submit" class="objectButtons" id="buttonWalk">Go For Walk</button>
+
+            <button type="submit" class="objectButtonsRIP" id="buttonKillPet">Die</button>
+            <button type="submit" class="objectButtonsRIP" id="buttonRevivePet">Revive?</button>
+
+        </div>
+
+
+    </div>
+
+
+    <script src="app.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
